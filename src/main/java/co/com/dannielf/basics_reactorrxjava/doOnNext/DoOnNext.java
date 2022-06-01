@@ -6,6 +6,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;
 
+/**
+ * doOnNext function
+ *
+ * @version 0.0.1
+ * @since 0.0.1
+ */
 public class DoOnNext {
 
     private static final Logger log = LoggerFactory.getLogger(DoOnNext.class);

@@ -7,6 +7,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;
 
+/**
+ * Subscribe reactor and rxjava
+ *
+ * @version 0.0.1
+ * @since 0.0.1
+ */
 public class Subscribe {
 
     private static final Logger log = LoggerFactory.getLogger(Subscribe.class);
