@@ -8,9 +8,9 @@ package co.com.dannielf.basics_reactorrxjava.model;
  */
 public class Person {
 
-    private final String id;
-    private final String name;
-    private final Integer age;
+    private String id;
+    private String name;
+    private Integer age;
 
     /**
      * Person's constructor
@@ -31,6 +31,14 @@ public class Person {
 
     public Integer age() {
         return age;
+    }
+
+    public void updateName(String name) {
+        this.name = name;
+    }
+
+    public void updateAge(Integer age) {
+        this.age = age;
     }
 
     @Override
