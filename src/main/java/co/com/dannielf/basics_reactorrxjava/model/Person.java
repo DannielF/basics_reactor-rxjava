@@ -12,6 +12,14 @@ public class Person {
         this.age = age;
     }
 
+    public String name() {
+        return name;
+    }
+
+    public Integer age() {
+        return age;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
